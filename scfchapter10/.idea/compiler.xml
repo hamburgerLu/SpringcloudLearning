@@ -6,14 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="scfchapter8" />
+        <module name="eureka-server" />
+        <module name="scfchapter10" />
         <module name="service-hi" />
-        <module name="service-miya" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="eureka-server" target="1.8" />
-      <module name="service-zipkin" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,0 +1,15 @@
+server:
+  port: 8763
+
+spring:
+  application:
+    name: service-hi
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+
+#因为这里是指向eureka8761的，但是我们能在peer1和peer2中同时发现这个HI服务的注册信息，这个就算是eureka的多节点高可用的情况
+

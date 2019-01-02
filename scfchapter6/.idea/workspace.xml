@@ -2,17 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a19bb365-c84f-441b-a846-095c0ff2443d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../scfchapter8/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scfchapter8/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scfchapter8/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scfchapter8/.idea/markdown-doclet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scfchapter8/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scfchapter8/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scfchapter8/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scfchapter8/scfchapter8.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scfchapter8/service-miya/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../scfchapter1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scfchapter1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scfchapter7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scfchapter7/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scfchapter8/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scfchapter8/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scfchapter8/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scfchapter8/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scfchapter8/service-zipkin/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scfchapter8/service-zipkin/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scfchapter8/service-zipkin/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scfchapter8/service-zipkin/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scfchapter8/service-zipkin/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scfchapter8/service-zipkin/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scfchapter8/service-zipkin/src/main/java/com/forezp/servicezipkin/ServiceZipkinApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scfchapter8/service-zipkin/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scfchapter8/service-zipkin/src/test/java/com/forezp/servicezipkin/ServiceZipkinApplicationTests.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,11 +31,13 @@
     <session id="697476086">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -70,8 +75,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="727">
-              <caret line="68" column="12" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="68" selection-end-column="12" />
+            <state relative-caret-position="655">
+              <caret line="55" column="26" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -88,7 +93,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config-client/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
+            <state relative-caret-position="756">
               <caret line="42" column="52" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="52" />
             </state>
           </provider>
@@ -106,7 +111,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config-client/src/main/java/com/forezp/configclient/ConfigClientApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
+            <state relative-caret-position="378">
               <caret line="30" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -177,8 +182,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="153" />
-    <option name="y" value="317" />
+    <option name="x" value="177" />
+    <option name="y" value="93" />
     <option name="width" value="1512" />
     <option name="height" value="932" />
   </component>
@@ -189,6 +194,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -287,7 +293,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -297,7 +302,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545990371891" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545998320576" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -368,17 +373,18 @@
       <workItem from="1545883217676" duration="13272000" />
       <workItem from="1545960707550" duration="594000" />
       <workItem from="1545965782756" duration="4568000" />
+      <workItem from="1546046299763" duration="2547000" />
+      <workItem from="1546391714379" duration="591000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18434000" />
+    <option name="totallyTimeSpent" value="21572000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="177" y="93" width="1512" height="932" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19616205" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15633608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -420,17 +426,24 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/config-client/src/main/java/com/forezp/configclient/RefreshableEurekaClientConfiguration.java" />
-    <entry file="file://$PROJECT_DIR$/config-server/src/main/java/com/forezp/configserver/ConfigServerApplication.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="655">
+          <caret line="55" column="26" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/config-server/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="72">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="42" column="52" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -443,7 +456,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config-client/src/main/java/com/forezp/configclient/ConfigClientApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
+        <state relative-caret-position="378">
           <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -451,24 +464,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config-client/pom.xml">
+    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="42" column="52" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="52" />
+        <state relative-caret-position="252">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/pom.xml">
+    <entry file="file://$PROJECT_DIR$/config-server/src/main/java/com/forezp/configserver/ConfigServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="727">
-          <caret line="68" column="12" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="68" selection-end-column="12" />
+        <state relative-caret-position="108">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
